@@ -3,5 +3,6 @@ def reverse_each_word(word)
   reverse_word.each do |w|
   w.reverse!
 end
-reverse_word
+new_reverse = reverse_word.join
+new_reverse
 end
